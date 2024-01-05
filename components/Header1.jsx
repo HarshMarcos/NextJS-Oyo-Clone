@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Blocks from "./Blocks";
+import Link from "next/link";
 
 const Header1 = () => {
   return (
@@ -41,7 +42,9 @@ const Header1 = () => {
             height={200}
             className="w-10 h-10 mr-5"
           />
-          <h3 className="font-bold">Login / Signup</h3>
+          <Link className="" href={"/login"}>
+            <h3 className="font-bold">Login / Signup</h3>
+          </Link>
         </div>
       </div>
     </div>
