@@ -13,6 +13,9 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "login-background": 'url("/background.avif")',
       },
+      height: {
+        "large-box": "400px",
+      },
     },
   },
   plugins: [],
